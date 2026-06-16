@@ -5,25 +5,61 @@ body {
     color: #333;
 }
 
-/* Fejléc */
+/* ===== MENÜ ===== */
+.navbar {
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* MENÜ SOR BALRÓL JOBBRA */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #4a90e2;
+}
+
+/* ===== FEJLÉC ===== */
 header {
     background: #4a90e2;
     color: white;
-    padding: 40px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
-/* Dobozok */
+/* ===== KÁRTYÁK ===== */
 .card {
     background: white;
     margin: 20px auto;
     padding: 20px;
-    max-width: 600px;
+    max-width: 700px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Lábléc */
+/* ===== LÁBLÉC ===== */
 footer {
     text-align: center;
     padding: 20px;
