@@ -9,38 +9,56 @@
 </head>
 <body>
 
-    <!-- MENÜ -->
-    <nav class="navbar">
-        <div class="logo">Jax</div>
-
-        <ul class="menu">
-            <li><a href="#bemutatkozas">Bemutatkozás</a></li>
-            <li><a href="#youtube">YouTube labor</a></li>
-            <li><a href="#appok">Appok</a></li>
-            <li><a href="#versek">Versek</a></li>
-        </ul>
-    </nav>
-
-    <!-- TARTALOM -->
-
-    <header id="bemutatkozas">
-        <h1>Bemutatkozás</h1>
-        <p>Üdv a weboldalamon! Ez az első saját oldalam GitHub Pages-en.</p>
+    <!-- FEJLÉC -->
+    <header class="top">
+        <h1>Jax weboldala</h1>
+        <p>Válassz egy menüpontot</p>
     </header>
 
-    <section id="youtube" class="card">
+    <!-- MENÜ KÁRTYÁK -->
+    <main class="menu-grid">
+
+        <a class="card" href="#bemutatkozas">
+            <div class="icon">👤</div>
+            <h2>Bemutatkozás</h2>
+        </a>
+
+        <a class="card" href="#youtube">
+            <div class="icon">▶️</div>
+            <h2>YouTube labor</h2>
+        </a>
+
+        <a class="card" href="#appok">
+            <div class="icon">📱</div>
+            <h2>Appok</h2>
+        </a>
+
+        <a class="card" href="#versek">
+            <div class="icon">✍️</div>
+            <h2>Versek</h2>
+        </a>
+
+    </main>
+
+    <!-- SZEKCIÓK -->
+    <section id="bemutatkozas" class="section">
+        <h2>Bemutatkozás</h2>
+        <p>Itt lesz a bemutatkozás szövege.</p>
+    </section>
+
+    <section id="youtube" class="section">
         <h2>YouTube labor</h2>
-        <p>Itt lesznek YouTube ötletek, videók és projektek.</p>
+        <p>YouTube ötletek és projektek.</p>
     </section>
 
-    <section id="appok" class="card">
+    <section id="appok" class="section">
         <h2>Appok</h2>
-        <p>Itt fognak megjelenni az elkészült alkalmazások.</p>
+        <p>Alkalmazások listája.</p>
     </section>
 
-    <section id="versek" class="card">
+    <section id="versek" class="section">
         <h2>Versek</h2>
-        <p>Itt lesznek a saját verseim és írásaim.</p>
+        <p>Saját írások, versek.</p>
     </section>
 
     <footer>
