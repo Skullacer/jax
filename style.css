@@ -1,70 +1,45 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background: #f4f6f8;
-    color: #333;
+    text-align: center;
 }
 
-/* ===== FEJLÉC ===== */
-.top {
-    text-align: center;
-    padding: 50px 20px;
+.title {
     background: #4a90e2;
     color: white;
+    padding: 40px;
+    margin: 0;
 }
 
-/* ===== MENÜ RÁCS ===== */
-.menu-grid {
+.menu {
     display: grid;
-    grid-template-columns: repeat(2, 160px);
-    justify-content: center;
+    grid-template-columns: repeat(2, 180px);
     gap: 20px;
-    margin: 40px 0;
+    justify-content: center;
+    margin-top: 40px;
 }
 
-/* ===== KÁRTYÁK ===== */
 .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 180px;
+    height: 120px;
+
     background: white;
-    width: 160px;
-    height: 160px;
-    border-radius: 15px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
     text-decoration: none;
     color: #333;
+    font-size: 18px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     transition: 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
     background: #4a90e2;
     color: white;
-}
-
-/* IKON */
-.icon {
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
-/* ===== SZEKCIÓK ===== */
-.section {
-    max-width: 700px;
-    margin: 40px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* ===== LÁBLÉC ===== */
-footer {
-    text-align: center;
-    padding: 20px;
-    color: #777;
+    transform: translateY(-5px);
 }
